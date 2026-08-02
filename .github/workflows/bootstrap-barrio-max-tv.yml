@@ -3,6 +3,8 @@ name: Build Barrio MAX TV v1
 on:
   push:
     branches: [feat/barrio-max-tv-v1]
+  pull_request:
+    branches: [main]
 
 permissions:
   contents: write
